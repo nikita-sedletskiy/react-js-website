@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
 import CarouselBox from '../Components/CarouselBox'
+import Cards from '../Components/Cards'
+
 
 export default class Home extends Component {
     render() {
         return (
-            <CarouselBox />
+            <div>
+                <CarouselBox />
+                <Cards />
+            </div>
         )
     }
 }
